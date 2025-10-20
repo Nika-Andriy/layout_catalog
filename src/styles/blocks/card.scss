@@ -2,7 +2,7 @@
   --column-count: 1;
 
   display: grid;
-  gap: 46px 48px;
+  gap: 48px 46px;
   padding: 50px 40px;
   justify-content: center;
   place-items: center;
@@ -42,7 +42,7 @@
     }
 
     &:hover {
-      transform: scale(120%);
+      transform: scale(1.2);
     }
 
     &__image {

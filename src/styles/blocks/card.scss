@@ -27,7 +27,7 @@
   }
 
   .card {
-    max-width: $card-width;
+    width: $card-width;
     box-sizing: border-box;
     border: 1px solid #f3f3f3;
     border-radius: $border-radius-small;
@@ -63,6 +63,7 @@
       align-items: center;
       font-size: $font-size-mid;
       font-weight: $font-weight-mid;
+      transition: all 300ms;
     }
 
     &:hover .card__title {
